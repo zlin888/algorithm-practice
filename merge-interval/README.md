@@ -2,7 +2,7 @@
 * 56 - Merge Intervals (Greedy)
 * 57 - Insert Interval (Greedy)
 * 435 - Non-overlapping Intervals (Greedy, meeting rooms problem)
-* 986 - Interval List Intersections (??)
+* 986 - Interval List Intersections (double pointer, 垃圾题)
 
 # 6 overlaps situations 
 ![6-overlaps](6-overlaps.png)
@@ -18,6 +18,10 @@
 1. Greedy: if two interval mergable, pick one whose end point is smaller
 2. It is also A classic Meeting Rooms / Class Rooms problem. Greedy, sort intervals by its left point(ending time). And then iterate it.
 
+# 986. Interval List Intersections
+太简单了，双指针
+
+# common code
 
 ```python
 def mergable(l0, l1):
