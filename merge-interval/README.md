@@ -1,15 +1,22 @@
+# Content
+* 56 - Merge Intervals (Greedy)
+* 57 - Insert Interval (Greedy)
+* 435 - Non-overlapping Intervals (Greedy, meeting rooms problem)
+* 986 - Interval List Intersections (??)
+
 # 6 overlaps situations 
 ![6-overlaps](6-overlaps.png)
 
 # 56. & 57. merge and insert intervals
 56.Merge Interval and 57.Insert Interval is similar. For 57, Just need to insert the interval to the correct position of given interval and then use the 56 algorithm will be find. Or use greedy.
 
-* 57 can use greedy algorithm to do it. But need to take full care of 6 overlapping possibilites.
+* 57 can use greedy algorithm to do it. But need to take full care of 6 overlapping situataions.
 
 * when using for/while-loop, be careful of the situation where len=0/1
 
 # 435. Non-overlapping Interval
-A classic Meeting Rooms / Class Rooms problem. Greedy, sort intervals by its left point(ending time).
+1. Greedy: if two interval mergable, pick one whose end point is smaller
+2. It is also A classic Meeting Rooms / Class Rooms problem. Greedy, sort intervals by its left point(ending time). And then iterate it.
 
 
 ```python
