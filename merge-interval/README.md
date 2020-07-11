@@ -1,5 +1,5 @@
 # 6 overlaps possibilites
-![6-overlaps](pics/6-overlaps.png)
+![6-overlaps](6-overlaps.png)
 
 56.Merge Interval and 57.Insert Interval is similar. For 57, Just need to insert the interval to the correct position of given interval and then use the 56 algorithm will be find. Or use greedy.
 
